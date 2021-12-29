@@ -1,0 +1,17 @@
+Messages:
+  General:
+    NotPlayer: "&cYou are not a player!"
+    NoVariant: "&cThis axolotl bucket has no variant set."
+  BucketAxolotlCommand:
+    NotHoldingAxolotlBucket: "&cThere is no Axolotl Bucket in your MainHand or OffHand."
+    AddLoreSuccess: "&eSuccessfully add lore to your Axolotl Bucket."
+  ItemLore:
+    Variant: "&bVariant: %BucketAxolotlColorView_variant%"
+Placeholders:
+  Blue: "Blue"
+  Cyan: "Cyan"
+  Wild: "Wild"
+  Lucy: "Lucy"
+  Gold: "Gold"
+Configuration:
+  AddLoreOnBucket: true

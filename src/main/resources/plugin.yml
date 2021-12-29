@@ -1,0 +1,22 @@
+name: BucketAxolotlColorView
+version: '${project.version}'
+main: io.github.tinyyana.bucketaxolotlcolorview.BucketAxolotlColorView
+api-version: 1.17
+prefix: BucketAxolotlColorView
+authors: [ TinyYana ]
+depend:
+  - PlaceholderAPI
+description: Check the variant of axolotl inside the bucket.
+website: https://github.com/TinyYana
+permissions:
+  BucketAxolotlColorView.AddLore:
+    description: Permission node of /bucketaxolotl command.
+    default: op
+commands:
+  bucketaxolotl:
+    description: Add color lore to axolotl bucket.
+    aliases:
+      - batl
+    permission: BucketAxolotlColorView.AddLore
+    permission-message: You don't have permission to do this.
+    usage: /<command>

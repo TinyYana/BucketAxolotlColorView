@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="BucketAxolotlColorView:jar">
+    <output-path>$PROJECT_DIR$/../../../MinecraftServer/PluginTestServer/plugins</output-path>
+    <root id="archive" name="BucketAxolotlColorView.jar">
+      <element id="module-output" name="BucketAxolotlColorView" />
+    </root>
+  </artifact>
+</component>
